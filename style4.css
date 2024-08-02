@@ -1,0 +1,78 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.navbar {
+  width: 100wh;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  background-color: #444141;
+  border-radius: 6px;
+}
+.list-item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.title {
+  background: #000;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 23px;
+  font-weight: 700;
+}
+.text {
+  width: 100%;
+  font-size: 19px;
+  font-weight: 50;
+  text-align: center;
+}
+.main {
+  margin-top: 30px;
+  width: 100%;
+  font-size: 50px;
+  font-weight: 50;
+  text-align: center;
+  background: #000;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+input {
+  width: 220px;
+  height: 30px;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.submit:hover
+{
+  cursor: pointer;
+}
+button {
+  width: 180px;
+  height: 30px;
+  background: #010000;
+  color: white;
+  font-size: medium;
+  font-weight: 600;
+}
+.results {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+.LoworHigh
+{
+  margin-top: -25px;
+}
